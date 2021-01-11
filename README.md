@@ -7,7 +7,7 @@ Esse projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli
 Abra o git bash em uma pasta e use o comando:
 - git clone https://github.com/Andeilso/listagem-de-usuario-com-angular.git
 
-Após baixar devemos instalar as dependencias, use o comando:
+Após baixar devemos instalar as dependencias, va até a pasta baixada no terminal e use o comando:
 - git i
 
 Após instalar as dependencias, use o comando:
