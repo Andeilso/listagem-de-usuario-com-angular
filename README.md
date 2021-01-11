@@ -1,7 +1,19 @@
 # ListagemDeUsuarios
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.6.
+Esse projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) versão 11.0.6.
 
-## Development server
+## Iniciar
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Abra o git bash em uma pasta e use o comando:
+git clone https://github.com/Andeilso/listagem-de-usuario-com-angular.git
+
+Após baixar devemos instalar as dependencias, use o comando:
+git i
+
+Após instalar as dependencias, use o comando:
+npm start
+
+Agora abra o navegador e utilize a url:
+http://localhost:4200/
+
+Pronto app rodando.
