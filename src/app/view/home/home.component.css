@@ -1,0 +1,46 @@
+h2{
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    margin: 30px 0px;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+div.user{
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    width: 25vw;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    height: 60px;
+    box-shadow: 1px 1px 3px 0px rgb(0, 0, 0);
+}
+
+.numero{
+    font-size: 2rem;
+    background-color: skyblue;
+    text-align: center;
+    padding: 10px;
+    width: 10%;
+    height: 100%;
+    font-family: 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    box-shadow: 1px 1px 10px 0px rgb(126, 126, 126);
+}
+
+.nome{
+    margin: 7px 15px;
+    text-align: start;
+}
+
+.email{
+    margin: 7px 15px;
+    width: 21vw;
+    text-align: start;
+}

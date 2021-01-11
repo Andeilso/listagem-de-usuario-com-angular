@@ -1,0 +1,16 @@
+h1{
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    text-align: center;
+}
+
+div{
+    width: 90vw;
+    height: 90vh;
+    background-color: rgb(41, 41, 41);
+    position: absolute;
+    left: 5vw;
+    bottom: 5vh;
+    box-shadow: 20px 20px 10px 20px solid black;
+    border-radius: 50px;
+}

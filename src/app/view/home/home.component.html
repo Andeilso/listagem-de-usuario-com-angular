@@ -1,0 +1,11 @@
+<h2>Usuários</h2>
+
+<section>
+    <div class="user" *ngFor='let usuario of usuarios'>
+        <p class="numero">{{usuario.id}}</p>
+        <div class="detalhe">
+            <p class="nome">Nome: {{usuario.name}}</p>
+            <p class="email">Email: {{usuario.email}}</p>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,47 @@
+/* Design da barra de rolagem */
+::-webkit-scrollbar{
+    width: 8px;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2e9dd8;
+    border-radius: 5px;
+}
+/*----------------------------*/
+
+#options ul{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 35px 30px 35px;
+}
+
+.button {
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px black solid;
+}
+
+.home{
+    font-size: 1.2rem;
+}
+
+#options ul li a{
+    text-decoration: none;
+}
+
+#user{
+    border-radius: 10px;
+    margin: 1vw 2vw;
+    padding: 15px;
+    height: 55vh;
+    background-color: rgb(3, 40, 79);
+    justify-content: space-around;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+    box-shadow: 2px 2px 3px 0px rgb(0, 0, 0);
+}

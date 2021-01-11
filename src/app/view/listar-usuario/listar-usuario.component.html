@@ -1,0 +1,13 @@
+<section>
+    <div *ngFor='let usuario of usuarios' class="card">
+        <p class="uId">{{usuario.id}}</p>
+        <p class="name">{{usuario.name}}</p>
+        <p class="star"> &#9734; </p>
+        <p class="phone">TEL: {{usuario.phone}}</p>
+        <p class="website">Site: {{usuario.website}}</p>
+        <p class="address">Endereço: {{usuario.address.street}}, {{usuario.address.suite}} - {{usuario.address.city}}</p>
+        <p class="geo"><a href="http://google.com/maps/place/{{usuario.address.geo.lat}}+{{usuario.address.geo.lng}}/">  Maps &#9873; </a></p>
+        <p class="company">Empresa: {{usuario.company.name}}</p>
+        <p class="phrase">Frase: {{usuario.company.catchPhrase}}</p>
+    </div>
+</section>
