@@ -5,15 +5,15 @@ Esse projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli
 ## Iniciar
 
 Abra o git bash em uma pasta e use o comando:
-git clone https://github.com/Andeilso/listagem-de-usuario-com-angular.git
+- git clone https://github.com/Andeilso/listagem-de-usuario-com-angular.git
 
 Após baixar devemos instalar as dependencias, use o comando:
-git i
+- git i
 
 Após instalar as dependencias, use o comando:
-npm start
+- npm start
 
 Agora abra o navegador e utilize a url:
-http://localhost:4200/
+- http://localhost:4200/
 
 Pronto app rodando.
